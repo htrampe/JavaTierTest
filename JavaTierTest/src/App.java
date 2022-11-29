@@ -10,8 +10,11 @@ public class App {
     }
 
     public static void zeigeTiereOderDatenIrgendwasSo(){
+        int i = 1;
         for(Tier tier : getTiere()){
+            System.out.print(i + ". ");
             tier.werBinIch();
+            i++;
         }
     }
 
