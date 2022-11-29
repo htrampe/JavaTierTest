@@ -15,6 +15,10 @@ public class App {
             System.out.print(i + ". ");
             tier.werBinIch();
             i++;
+
+            if(tier.getGroesse() < 6){
+                System.out.println("Dit is ja ein kleines Tierchen...");
+            }
         }
     }
 
